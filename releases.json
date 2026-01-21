@@ -1,6 +1,27 @@
 {
   "schema_version": 1,
   "repository": "travisccook/DroidNetSignalBooster-releases",
-  "latest": {},
-  "images": {}
+  "latest": {
+    "1": {
+      "version": "1.0",
+      "download_url": "https://github.com/travisccook/DroidNetSignalBooster-releases/raw/main/releases/v1/updates/droidnet-update-1.0.zip",
+      "checksum_sha256": "569b2419f5a35892471d89fd5afbebc8269139ad0c565fbfebb10d8696dfefa0",
+      "size_bytes": 888201,
+      "release_date": "2026-01-21",
+      "changelog": [
+        "Initial release",
+        "GitHub-based update distribution system",
+        "Automatic update checking with configurable intervals",
+        "One-click update from web interface"
+      ]
+    }
+  },
+  "images": {
+    "1": {
+      "version": "1.0",
+      "models": ["zero-w", "zero2-w", "pi3", "pi4"],
+      "release_date": "2026-01-21",
+      "note": "Debug images available - contact for download links"
+    }
+  }
 }
