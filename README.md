@@ -4,16 +4,35 @@ This repository contains release artifacts for DroidNet Signal Booster devices.
 
 ## For Users
 
+### Supported Hardware
+
+| Pi Model | Support Level | Notes |
+|----------|---------------|-------|
+| **Pi Zero 2 W** | ✅ Recommended | Best balance of size and performance |
+| **Pi 3** | ✅ Recommended | Full performance, larger form factor |
+| **Pi 4** | ✅ Recommended | Maximum performance |
+| Pi Zero W | ⚠️ Limited | See warning below |
+
+> **⚠️ Pi Zero W Notice**
+>
+> While we continue to provide images for the original Pi Zero W, **we do not recommend it for new installations** due to its single-core processor and limited RAM. Users may experience:
+> - Slower web interface responsiveness
+> - Longer firmware flash times
+> - Reduced performance with multiple USB devices
+> - Some features may be restricted or unavailable
+>
+> For the best experience, we recommend the **Pi Zero 2 W** which offers significantly better performance in the same form factor.
+
 ### Fresh Install (New Devices)
 
 Download the appropriate image for your Raspberry Pi model from the [latest release](https://github.com/travisccook/DroidNetSignalBooster-releases/releases).
 
 | Pi Model | Image |
 |----------|-------|
-| Pi Zero W | `droidnet-vX.X-pi-zero-w.img.gz` |
 | Pi Zero 2 W | `droidnet-vX.X-pi-zero-2.img.gz` |
 | Pi 3 | `droidnet-vX.X-pi-3.img.gz` |
 | Pi 4 | `droidnet-vX.X-pi-4.img.gz` |
+| Pi Zero W ⚠️ | `droidnet-vX.X-pi-zero-w.img.gz` |
 
 Flash the image to an SD card using [Raspberry Pi Imager](https://www.raspberrypi.com/software/) or similar tool.
 
