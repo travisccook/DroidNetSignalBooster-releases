@@ -29,10 +29,10 @@ Download the appropriate image for your Raspberry Pi model from the [latest rele
 
 | Pi Model | Image |
 |----------|-------|
-| Pi Zero 2 W | `droidnet-vX.X-pi-zero-2.img.gz` |
-| Pi 3 | `droidnet-vX.X-pi-3.img.gz` |
-| Pi 4 | `droidnet-vX.X-pi-4.img.gz` |
-| Pi Zero W ⚠️ | `droidnet-vX.X-pi-zero-w.img.gz` |
+| Pi Zero 2 W | `droidnet-lite-zero2-w-vX.X.img` |
+| Pi 3 | `droidnet-lite-pi3-vX.X.img` |
+| Pi 4 | `droidnet-lite-pi4-vX.X.img` |
+| Pi Zero W ⚠️ | `droidnet-lite-zero-w-vX.X.img` |
 
 Flash the image to an SD card using [Raspberry Pi Imager](https://www.raspberrypi.com/software/) or similar tool.
 
