@@ -3,23 +3,30 @@
   "repository": "travisccook/DroidNetSignalBooster-releases",
   "latest": {
     "1": {
-      "version": "1.0",
-      "download_url": "https://github.com/travisccook/DroidNetSignalBooster-releases/raw/main/releases/v1/updates/droidnet-update-1.0.zip",
-      "checksum_sha256": "569b2419f5a35892471d89fd5afbebc8269139ad0c565fbfebb10d8696dfefa0",
-      "size_bytes": 888201,
-      "release_date": "2026-01-21",
+      "version": "1.1",
+      "release_date": "2026-01-23T19:57:50Z",
+      "download_url": "https://github.com/travisccook/DroidNetSignalBooster-releases/releases/download/v1.1/droidnet-update-1.1.zip",
+      "checksum_sha256": "df04a806d0fddcb2b1aa91b671320309bb7d6e72b66c55a3fecd64d533d17c69",
+      "size_bytes": 893457,
+      "release_notes_url": "https://github.com/travisccook/DroidNetSignalBooster-releases/releases/tag/v1.1",
+      "min_version": "1.0",
       "changelog": [
-        "Initial release",
-        "GitHub-based update distribution system",
-        "Automatic update checking with configurable intervals",
-        "One-click update from web interface"
+        "Add dedicated flash logging for better debugging",
+        "Improve serial port release with aggressive cleanup",
+        "Support WCB v5.6+ backup/restore features (broadcast I/O, serial monitor mappings, PWM)",
+        "Add automatic update check on first page load after restart"
       ]
     }
   },
   "images": {
     "1": {
       "version": "1.0",
-      "models": ["zero-w", "zero2-w", "pi3", "pi4"],
+      "models": [
+        "zero-w",
+        "zero2-w",
+        "pi3",
+        "pi4"
+      ],
       "release_date": "2026-01-21",
       "note": "Debug images available - contact for download links"
     }
