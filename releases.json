@@ -3,18 +3,24 @@
   "repository": "travisccook/DroidNetSignalBooster-releases",
   "latest": {
     "1": {
-      "version": "1.1",
-      "release_date": "2026-01-23T19:57:50Z",
-      "download_url": "https://github.com/travisccook/DroidNetSignalBooster-releases/releases/download/v1.1/droidnet-update-1.1.zip",
-      "checksum_sha256": "df04a806d0fddcb2b1aa91b671320309bb7d6e72b66c55a3fecd64d533d17c69",
-      "size_bytes": 893457,
-      "release_notes_url": "https://github.com/travisccook/DroidNetSignalBooster-releases/releases/tag/v1.1",
+      "version": "1.2",
+      "release_date": "2026-01-24T19:53:33Z",
+      "download_url": "https://github.com/travisccook/DroidNetSignalBooster-releases/releases/download/v1.2/droidnet-update-1.2.zip",
+      "checksum_sha256": "3b60d3f58bff482efa7108e94aaca6e425903e5149f6009bca4609812524a186",
+      "size_bytes": 929151,
+      "release_notes_url": "https://github.com/travisccook/DroidNetSignalBooster-releases/releases/tag/v1.2",
       "min_version": "1.0",
       "changelog": [
-        "Add dedicated flash logging for better debugging",
-        "Improve serial port release with aggressive cleanup",
-        "Support WCB v5.6+ backup/restore features (broadcast I/O, serial monitor mappings, PWM)",
-        "Add automatic update check on first page load after restart"
+        "This release focuses on WCB backup reliability improvements and introduces the new Droid tab for managing multiple Signal Boosters within a single droid.",
+        "Droid Tab (Beta)**",
+        "New tab for managing multiple Signal Boosters installed in one droid",
+        "Grid-based UI showing status of each connected device",
+        "Option to preserve active tab when switching between devices",
+        "Note: This feature is a work in progress. Device switching behavior is still being refined.*",
+        "Universal `droidnet.local` Access**",
+        "Your Signal Booster is now always reachable at `droidnet.local` in client mode",
+        "Works in addition to any custom hostname you've configured (e.g., `c2-body.local`)",
+        "Provides a consistent, predictable address for accessing your device without needing to remember custom hostnames"
       ]
     }
   },
