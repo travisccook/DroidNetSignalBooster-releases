@@ -3,24 +3,21 @@
   "repository": "travisccook/DroidNetSignalBooster-releases",
   "latest": {
     "1": {
-      "version": "1.2",
-      "release_date": "2026-01-24T19:53:33Z",
-      "download_url": "https://github.com/travisccook/DroidNetSignalBooster-releases/releases/download/v1.2/droidnet-update-1.2.zip",
-      "checksum_sha256": "3b60d3f58bff482efa7108e94aaca6e425903e5149f6009bca4609812524a186",
-      "size_bytes": 929151,
-      "release_notes_url": "https://github.com/travisccook/DroidNetSignalBooster-releases/releases/tag/v1.2",
+      "version": "1.3",
+      "release_date": "2026-01-24T20:14:18Z",
+      "download_url": "https://github.com/travisccook/DroidNetSignalBooster-releases/releases/download/v1.3/droidnet-update-1.3.zip",
+      "checksum_sha256": "c668dab73fe65212167639e52e646492d0b5727506fbda80b40fe13e4d29fc72",
+      "size_bytes": 929342,
+      "release_notes_url": "https://github.com/travisccook/DroidNetSignalBooster-releases/releases/tag/v1.3",
       "min_version": "1.0",
       "changelog": [
-        "This release focuses on WCB backup reliability improvements and introduces the new Droid tab for managing multiple Signal Boosters within a single droid.",
-        "Droid Tab (Beta)**",
-        "New tab for managing multiple Signal Boosters installed in one droid",
-        "Grid-based UI showing status of each connected device",
-        "Option to preserve active tab when switching between devices",
-        "Note: This feature is a work in progress. Device switching behavior is still being refined.*",
-        "Universal `droidnet.local` Access**",
-        "Your Signal Booster is now always reachable at `droidnet.local` in client mode",
-        "Works in addition to any custom hostname you've configured (e.g., `c2-body.local`)",
-        "Provides a consistent, predictable address for accessing your device without needing to remember custom hostnames"
+        "GitHub Update Download**",
+        "Fixed \"Update Now\" button failing immediately with \"Connection to server lost\"",
+        "The download endpoint now correctly responds to GET requests (required by EventSource)",
+        "Force Reinstall Updates**",
+        "Added ability to re-apply updates even when already on the latest version",
+        "Useful for troubleshooting or ensuring a clean installation",
+        "API: `/api/system/download-update?force=true`"
       ]
     }
   },
