@@ -25,7 +25,6 @@
     "1": {
       "version": "1.0.0",
       "models": [
-        "zero-w",
         "zero2-w",
         "pi3",
         "pi4"
